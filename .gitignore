@@ -1,5 +1,5 @@
 # for test
-banksalad/snippets/
+./snippets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
