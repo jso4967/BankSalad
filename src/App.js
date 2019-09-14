@@ -7,13 +7,17 @@
  */
 
 import React, { Component } from 'react';
-import { View, Text } from 'react-native'
+import { View, Text, Platform } from 'react-native'
 import AppStack from './screens'
-import BackgroundColor from 'react-native-background-color';
+
+
+
+
+const BackgroundColor = Platform.OS === 'ios' ? null : require('react-native-background-color')
 
 class App extends Component {
   componentDidMount() {
-    BackgroundColor.setColor('#FFFFFF');
+    Platform.OS === 'ios' ? null : BackgroundColor.setColor('#FFFFFF');
   }
 
   render() {

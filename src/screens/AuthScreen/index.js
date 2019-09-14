@@ -57,7 +57,7 @@ class AuthScreen extends Component {
     render() {
         return (
 
-                // <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+                <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
                     <View  style={styles.main} >
                         <Text style={{ width: "100%", textAlign: 'left', fontSize: 20, color: this.state.color }}>{this.state.message}</Text>
                         <TextInput
@@ -94,7 +94,7 @@ class AuthScreen extends Component {
                         </TouchableOpacity>
 
                     </View >
-                // </TouchableWithoutFeedback>
+                 </TouchableWithoutFeedback>
 
         )
     }
@@ -117,7 +117,8 @@ const styles = StyleSheet.create({
         height: "8%",
         width: "100%",
         backgroundColor: '#45CA93',
-        marginTop: 'auto'
+        marginTop: 'auto',
+        borderRadius: 6
     },
     bottonText: {
         textAlign: 'center',

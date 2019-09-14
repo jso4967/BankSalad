@@ -78,6 +78,6 @@ export default createAppContainer(createSwitchNavigator({
     }
 },
     {
-        initialRouteName: "SplashScreen"
+        initialRouteName: "TabNavigator"
     }));
 

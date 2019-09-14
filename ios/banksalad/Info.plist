@@ -42,9 +42,13 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>UIAppFonts</key>
-	<array/>
+	<array>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>AntDesign.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>A</string>
 	<key>UIRequiredDeviceCapabilities</key>
