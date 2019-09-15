@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from .serializers import UserSerializer, RegisterSerializer
 
 
-# Register API
 class RegisterAPI(generics.GenericAPIView):
     serializer_class = RegisterSerializer
 
